@@ -2,9 +2,11 @@ PowerShell Scaffold
 =
 PowerShell Scaffold allows you to quickly create a suite of PowerShell functions stubbing out a param block and help.
 
+![image](https://raw.github.com/dfinke/PowerShellScaffold/master/HowTo.gif)
+
 *More to come*
 
-	New-Scaffold -Verbs (echo New Remove Set Clear Save) -Noun Users
+	New-Scaffold -Verbs New,Remove,Set,Clear,Save -Noun Users
 
 Generate Functions
 -
